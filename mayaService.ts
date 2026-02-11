@@ -1,6 +1,6 @@
 
-import { SEALS, TONES, SEAL_COLORS } from '../constants';
-import { KinData } from '../types';
+import { SEALS, TONES, SEAL_COLORS } from './constants';
+import { KinData } from './types';
 
 /**
  * Calculates the Kin for a given birthdate using the Dreamspell correlation.
