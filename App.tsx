@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Loader2 } from 'lucide-react';
 import { calculateKin } from './mayaService';
-import { getOracleRevelation } from '.localOracleService';
+import { getOracleRevelation } from './localOracleService';
 import { ReadingResult } from './types';
 import { LOADING_MESSAGES } from './constants';
 
