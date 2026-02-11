@@ -1,5 +1,5 @@
 
-import { KinData, OracleRevelation } from "../types";
+import { KinData, OracleRevelation } from "./types";
 import { getStaticRevelation } from "./staticOracle";
 
 export const getOracleRevelation = async (kin: KinData, userName: string): Promise<OracleRevelation> => {
